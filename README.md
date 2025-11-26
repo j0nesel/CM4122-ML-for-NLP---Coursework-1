@@ -1,5 +1,4 @@
-ML for NLP: Coursework 1 Task 2
-    This repository contains the full implementation for Task 2 of the ‘Machine Learning for Natural Langauge Processing’ coursework. 
+This repository contains the full implementation for Task 2 of the ‘Machine Learning for Natural Langauge Processing’ coursework. 
 The system performs multi class text classification on a subset of the 20 Newsgroups dataset, comparing several feature configurations based on TD_IDF (unigrams, bigrams and document length) and selecting the best model using a development set.
 The code is fully documented and can be run end to end from the terminal.
 
@@ -38,18 +37,18 @@ How to run the programme:
 While this step is not strictly required it is highly recommended as you will need to install 3 external python packages required for running the programme. If you do not use a virtual environment, these packages will be installed into your global Python environment instead. 
 
 Windows:
-python -m venv venv
-venv\Scripts\activate
+- python -m venv venv
+- venv\Scripts\activate
 
 Linux and Mac:
-python3 -m venv venv
-source venv/bin/activate
+- python3 -m venv venv
+- source venv/bin/activate
 
 2. Install dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 3. Run the Programme
-python main.py
+- python main.py
 
 Modifying feature configurations:
 Document length can take a longer time to run than unigram and bigram, if you want to run the code at any point without any specific configuration of features you can do this by commenting out the specific entry inside configs list found in main.py.
@@ -60,4 +59,4 @@ Side Notes:
 - The random seed has been fixed at '42'. If you change this it may affect reproducability.
 
 Contact: If you have any issues please contact me at 'jonesel32@cardiff.ac.uk'
-I hope the code works as intended and you have a good day! :>
+- I hope the code works as intended and you have a good day! :>
