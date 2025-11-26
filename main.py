@@ -33,8 +33,8 @@ configs = [
     {"name": "D: unigrams + bigrams",
      "use_unigrams": True,  "use_bigrams": True,  "use_doclen": False},
 
-    # {"name": "E: unigrams + doc_length",
-    {"use_unigrams": True,  "use_bigrams": False, "use_doclen": True},
+    {"name": "E: unigrams + doc_length",
+    "use_unigrams": True,  "use_bigrams": False, "use_doclen": True},
 
     {"name": "F: bigrams + doc_length",
      "use_unigrams": False, "use_bigrams": True,  "use_doclen": True},
