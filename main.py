@@ -30,17 +30,17 @@ configs = [
      "use_unigrams": False, "use_bigrams": False, "use_doclen": True},
 
     # Two feature combinations
-    {"name": "D: unigrams + bigrams",
+    {"name": "D: unigrams and bigrams",
      "use_unigrams": True,  "use_bigrams": True,  "use_doclen": False},
 
-    {"name": "E: unigrams + doc_length",
+    {"name": "E: unigrams and doc_length",
     "use_unigrams": True,  "use_bigrams": False, "use_doclen": True},
 
-    {"name": "F: bigrams + doc_length",
+    {"name": "F: bigrams and doc_length",
      "use_unigrams": False, "use_bigrams": True,  "use_doclen": True},
 
     #All three features
-    {"name": "G: uni+bi + doc_length",
+    {"name": "G: unigram, bigram and doc_length",
      "use_unigrams": True,  "use_bigrams": True,  "use_doclen": True}
     ]
 
